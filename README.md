@@ -3,7 +3,7 @@ Todo list using React Hooks
 
 [DEMO LINK](http://Inna-Golovina.github.io/todo_app_react)
 
-
+[todoapp](./public/todos_demo.png)
 
 # Getting Started with Create React App
 

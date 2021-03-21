@@ -33,7 +33,7 @@ export const TodoForm = ({ title, setTitle, todos, setTodos, setStatus }) => {
           <input
             type="text"
             className="todo-input"
-            placeholder="Add your new todo"
+            placeholder="What needs to be done?"
             value={title}
             onChange={handleChange}
           />

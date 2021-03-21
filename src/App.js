@@ -50,7 +50,7 @@ const App = () => {
   return (
     <div className="App">
       <header>
-        <h1>Todos list</h1>
+        <h1>todos</h1>
       </header>
       <TodoForm
         title={title}

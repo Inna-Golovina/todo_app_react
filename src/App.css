@@ -1,22 +1,41 @@
 * {
-  font-family: 'Shippori Mincho B1', serif;
+  font-family: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
-  background: linear-gradient(90deg, #68EACC 0%, #497BE8 100%);
-  color: white;
+  font-family: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #f5f5f5;
+  color: #4d4d4d;
   margin-bottom: 40px;
 }
 
 header {
-  margin-top: 10px;
-  font-size: 28px;
-  font-weight: 600;
-  color: #e96455;
-  letter-spacing: 0.3em;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(175, 47, 47, 0.15);
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
 }
 
 header,
@@ -28,6 +47,7 @@ header,
 }
 
 .todo-form input{
+  color: rgba(0, 0, 0, 0.637);
   padding: 0px 8px 10px 8px;
   font-size: 32px;
   border: none;
@@ -41,12 +61,12 @@ header,
 }
 
 .todo-form input::placeholder {
-  font-size: 14px;
-  color: #1a59e0e8;
+  font-size: 24px;
+  color: rgba(175, 47, 47, 0.15);;
 }
 
 .todo-form button {
-  color: #0749d6e8;
+  color: rgba(175, 47, 47, 0.329);
   background: #f7fffe;
   cursor: pointer;
   width: 52px;
@@ -55,7 +75,7 @@ header,
 }
 
 .todo-form button:hover {
-  background: #1a59e0e8;
+  background: rgba(173, 18, 18, 0.425);
   color: white;
 }
 
@@ -74,7 +94,7 @@ header,
   margin: 8px;
   background: white;
   font-size: 24px;
-  color: black;
+  color: rgba(0, 0, 0, 0.637);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,6 +105,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  border: none;
 }
 
 .select-todo {
@@ -97,7 +118,7 @@ select {
 
 .remove-button,
 .complete-button {
-  background: #e96455;
+  background: #cc9a9a;
   color: white;
   border: none;
   padding: 16px;
@@ -106,7 +127,7 @@ select {
 }
 
 .complete-button {
-  background: #68EACC;
+  background: #56ebc8ab;
 }
 
 .todo-task {
@@ -138,9 +159,11 @@ select {
 }
 
 select {
-  color: #1a59e0e8;
+  color:  rgba(175, 47, 47, 0.15);
   cursor: pointer;
   width: 192px;
+  max-height: 48px;
+  font-size: 18px;
 }
 
 .todo-select::after {
@@ -149,12 +172,13 @@ select {
   top: 0;
   right: 0;
   padding: 16px;
-  background: #1a59e0e8;
+  background: rgba(175, 47, 47, 0.329);
   cursor: pointer;
   pointer-events: none;
 }
 
 .todo-amount{
+  color:rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
